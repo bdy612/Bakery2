@@ -1,0 +1,103 @@
+.TAB1 .sec1{
+    background-image: linear-gradient(rgba(16, 13, 26, 0.9),rgba(16, 13, 26, 0.9)), url(BAKEinside.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TAB1 .sec1 p{
+    font-size: 25px;
+}
+.TAB1 .sec1 h2{
+    font-size: xx-large;
+}
+.BIM{
+    margin: auto;
+}
+.M .L2{
+    margin-left: 45%;
+}
+.M .L1{
+    margin-left: 41%;
+}
+.M .L3{
+    margin-left: 43%;
+}
+.TAB1 .sec2 .img{
+    display: inline-block;
+}
+.TAB1 .sec2{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+    border: blueviolet 3px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+.TAB1 .sec2 img:hover{
+    transform: scale(1.1);
+}
+.TAB1 .sec2 img{
+    height: 250px;
+    width: 250px;
+}
+.TAB1 .sec2 .img1 img{
+    height: 200px;
+    width: 250px;
+}
+.TAB3{
+    margin-top: 20px;
+    background-color: aqua;
+    height: 90vh;
+}
+.LAB{
+    display: block;
+    color: rebeccapurple;
+}
+body{
+    text-transform: capitalize;
+}
+.TAB1 .sec3 p, .TAB1 .sec3 h1{
+    margin-left: 30%;
+    color: chocolate;
+}
+.TAB1 .sec3 p{
+    margin-top: 30px;
+}
+.TAB1 .sec3{
+    border-radius: 40px;
+    border: #64fa50f3 4px solid;
+    background-color: #0f3af5ab;
+}
+.TAB1 .sec4{
+    background-image: linear-gradient(rgba(16, 13, 26, 0.9),rgba(16, 13, 26, 0.9)), url(sec4BAKEinside.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TAB1 .sec4 i{
+    color: yellow;
+    margin-right: 10px;
+}
+.TAB1 .sec4 .ocn1{
+    margin-top: 200px;
+}
+.TAB1 .sec4 .item2{
+    text-align: center;
+}
+.TAB12 footer{
+    background-color: rgb(46, 46, 55);
+    color: white;
+    font-size: 150%;
+}
+.TAB12 footer h2, .TAB12 footer span, .TAB2 footer p{
+    color: #0abf;
+}
+.TAB2{
+    background-color: indianred;
+    height: 90vh;
+}

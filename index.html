@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Boody">
+    <title>
+        Bakery
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+					Dropdown
+				  </a>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#">About</a>
+					<a class="dropdown-item" href="#">Bakery</a>
+				  </div>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled">Disabled</a>
+				</li>
+			  </ul>
+			  <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			  </form>
+			</div>
+		  </nav>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active TAB12 TAB1" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <section class="sect sec1">
+              <div class="sec1div">
+                <h2 class="text-center text-light">
+                  Bakery
+              </h2>
+              <p class="text-center text-light">
+                  The best <br>
+                  bakery in the world
+              </p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning bg-warning p-3 px-5 text-light" data-toggle="modal" data-target="#exampleModal">
+  Choose your item
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Item</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body M">
+        <form class="modalform">
+          <label class="col-form-control L1">
+            Full name
+          </label>
+          <input type="text" class="form-control">
+          <label class="col-form-control L2">
+            Item
+          </label>
+          <select class="form-control">
+            <option value="1">
+              1 piece of Bread
+            </option>
+            <option value="5">
+              5 Dounts 
+            </option>
+            <option value="6">
+              10 Dounts
+            </option>
+            <option value="7">
+              Cake
+            </option>
+            <option value="2">
+              5 pieces of Bread
+            </option>
+            <option value="3">
+              10 pieces of Bread
+            </option>
+            <option value="4">
+              1 Dount
+            </option>
+          </select>
+          <label class="col-form-control L3">
+            Amount
+          </label>
+          <input type="number" min="1" class="form-control">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary BIM BIMC" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary BIM BIMS" data-dismiss="modal">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </section>
+            <section class="sect sec2">
+              <div class="img1 img">
+                <img src="bread.png" alt="Bread">
+                <br>
+                <span>
+                  $20 10-SAR/item
+                </span>
+              </div>
+              <div class="img2 img">
+                <img src="dount.png" alt="Dount">
+                <br>
+                <span>
+                  $40 20-SAR/item
+                </span>
+              </div>
+              <div class="img3 img">
+                <img src="cake.png" alt="Cake">
+                <br>
+                <span>
+                  $140 70-SAR/item
+                </span>
+              </div>
+            </section>
+            <section class="sect sec3">
+              <h1>
+                Our mission
+              </h1>
+			  <p>
+				We have our items and <br>
+				It is shown <br>
+				$20 10-SAR/Bread <br>
+				$40 20-SAR/Dount <br>
+				$140 70-SAR/Cake
+			  </p>
+            </section>
+            <section class="sect sec4">
+				<div class="row row1">
+					<div class="col-lg-4 col-md-6 ocn1">
+						<div class="item2 m-1 p-3 border rounded">
+							<h4 class="p-2"><i class="fa-solid fa-utensils fa-flip"></i>Restaurant</h4>
+							<p>
+								our restaurant is very good <br>
+								and good chairs
+							</p> 
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 ocn1">
+						<div class="item2 m-1 p-3 border rounded">
+							<h4 class="p-2"><i class="fa-solid fa-person-biking fa-beat-fade"></i>Sports Club</h4>
+							<p>
+								we have a sports club <br>
+								swimming, football, and many more
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 ocn1">
+						<div class="item2 m-1 p-3 border rounded">
+							<h4 class="p-2"><i class="fa-solid fa-person-swimming fa-flip"></i>Swimming Pool</h4>
+							<p>
+								and a big swimming pool <br>
+								for [from 5 years to 20 years] <br>
+								with a captain 35 years old
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-6 ocn2">
+						<div class="item2 m-3 p-2 border rounded">
+							<h4 class="p-2"><i class="fa-solid fa-car-side fa-bounce"></i>Rent a Car</h4>
+							<p>
+								and you can rent a car for <br>
+								[from 170,450 SAR to 600,500 SAR]
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-6 ocn2">
+						<div class="item2 m-3 p-2 border rounded">
+							<h4 class="p-2"><i class="fa-solid fa-dumbbell fa-bounce"></i>Gymnesium</h4>
+							<p>
+								and a gym hall
+							</p>
+						</div>
+					</div>
+				</div>
+            </section>
+            <footer class="F mt-4">
+				<div class="text-center">
+				  <h2 class="pt-4">
+					Contact
+				  </h2>
+				  <div class="m-4">
+					<i class="fa-solid fa-location-dot fa-bounce" style="color: crimson;"></i>
+					<span>
+					  436 street, Jubail, Saudi Arabia
+					</span>
+				  </div>
+				  <div class="m-4">
+					<i class="fa-solid fa-mobile fa-beat-fade" style="color: #de8b17;"></i>
+					<span>
+					  +966 57 550 7019
+					</span>
+				  </div>
+				  <div class="m-4">
+					<i class="fa-solid fa-envelope fa-shake" style="color: #1bb710;"></i>
+					<span>
+					  abdelrahman_612@yahoo.com or boodydoomy@outlook.com
+					</span>
+				  </div>
+				</div>
+			  </footer>
+        </div>
+            <div class="tab-pane fade TAB12 TAB2" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+				<section>
+					<footer class="F mt-4">
+						<div class="text-center">
+							<p>
+								You can call me on one of those contacting things on.... <br>
+								telegram <br>
+								whatsapp <br>
+								phone <br>
+								and that is all
+							</p>
+						</div>
+					</footer>
+					<footer class="F mt-4">
+						<div class="text-center">
+						  <h2 class="pt-4">
+							Contact
+						  </h2>
+						  <div class="m-4">
+							<i class="fa-solid fa-location-dot fa-bounce" style="color: crimson;"></i>
+							<span>
+							  436 street, Jubail, Saudi Arabia
+							</span>
+						  </div>
+						  <div class="m-4">
+							<i class="fa-solid fa-mobile fa-beat-fade" style="color: #de8b17;"></i>
+							<span>
+							  +966 57 550 7019
+							</span>
+						  </div>
+						  <div class="m-4">
+							<i class="fa-solid fa-envelope fa-shake" style="color: #1bb710;"></i>
+							<span>
+							  abdelrahman_612@yahoo.com or boodydoomy@outlook.com
+							</span>
+						  </div>
+						</div>
+					  </footer>
+				</section>
+            </div>
+            <div class="tab-pane fade TAB3" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+					  <span class="input-group-text" id="basic-addon1">@</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+				  </div>
+				  
+				  <div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+					  <span class="input-group-text" id="basic-addon2">@example.com</span>
+					</div>
+				  </div>
+				  
+				  <label for="basic-url" class="text-center LAB">Your vanity URL</label>
+				  <div class="input-group mb-3">
+					<div class="input-group-prepend">
+					  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+					</div>
+					<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+				  </div>
+				  
+				  <div class="input-group mb-3">
+					<div class="input-group-prepend">
+					  <span class="input-group-text">$</span>
+					</div>
+					<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+					<div class="input-group-append">
+					  <span class="input-group-text">.00</span>
+					</div>
+				  </div>
+				  
+				  <div class="input-group">
+					<div class="input-group-prepend">
+					  <span class="input-group-text">With textarea</span>
+					</div>
+					<textarea class="form-control" aria-label="With textarea"></textarea>
+				  </div>
+            </div>
+          </div>
+    </header>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
